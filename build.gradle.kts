@@ -1,51 +1,53 @@
-import org.gradle.kotlin.dsl.apply
-import org.gradle.kotlin.dsl.extra
-import org.gradle.kotlin.dsl.kotlin
-import org.gradle.kotlin.dsl.repositories
-import org.jetbrains.kotlin.gradle.dsl.Coroutines
-import org.jetbrains.kotlin.gradle.dsl.KotlinProjectExtension
-
-val kotlinVersion = "1.1.51"
-val commonMarkVersion = "0.9.0"
+import Dep.Kotlin.reflect
+import Dep.Kotlin.stdlib
+import Dep.commonmark
+import Dep.commonmarkExtGfmTables
+import Dep.coroutines
+import Dep.httpClient
+import Dep.jacksonKotlin
+import Dep.jacksonXml
+import Dep.junit
+import Dep.kotlinVersion
+import Dep.mockk
 
 plugins {
     application
-    kotlin("jvm", "1.1.51")
+    kotlin("jvm") version Dep.kotlinVersion
 }
 
-configure<ApplicationPluginConvention> {
+application {
     mainClassName = "link.kotlin.scripts.Application"
 }
 
 repositories {
     jcenter()
-    maven { setUrl("https://dl.bintray.com/heapy/heap") }
-}
-
-configure<KotlinProjectExtension> {
-    experimental.coroutines = Coroutines.ENABLE
+    maven { url = uri("https://dl.bintray.com/heapy/heap") }
 }
 
 dependencies {
-    compile("org.jetbrains.kotlin:kotlin-stdlib-jre8:$kotlinVersion")
-    compile("org.jetbrains.kotlin:kotlin-reflect:$kotlinVersion")
-    compile("org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:0.19.1")
+    implementation(stdlib)
+    implementation(reflect)
+    implementation(coroutines)
 
-    compile("com.fasterxml.jackson.module:jackson-module-kotlin:2.8.8")
-    compile("org.slf4j:slf4j-api:1.7.25")
-    compile("ch.qos.logback:logback-classic:1.2.3")
-    compile("io.sentry:sentry-logback:1.4.0")
+    implementation(jacksonXml)
+    implementation(jacksonKotlin)
 
-    compile("com.rometools:rome:1.7.0")
-    compile("com.github.dfabulich:sitemapgen4j:1.0.6")
-    compile("org.jsoup:jsoup:1.10.2")
-    compile("by.heap.remark:remark-kotlin:1.2.0")
+    implementation("org.slf4j:slf4j-api:1.7.25")
+    implementation("ch.qos.logback:logback-classic:1.2.3")
+    implementation("io.sentry:sentry-logback:1.6.3")
 
-    compile("org.jetbrains.kotlin:kotlin-script-util:$kotlinVersion")
-    compile("com.atlassian.commonmark:commonmark:$commonMarkVersion")
-    compile("com.atlassian.commonmark:commonmark-ext-gfm-tables:$commonMarkVersion")
+    implementation("com.rometools:rome:1.7.0")
+    implementation("com.github.dfabulich:sitemapgen4j:1.0.6")
+    implementation("org.jsoup:jsoup:1.10.2")
+    implementation("by.heap.remark:remark-kotlin:1.2.0")
 
-    compile("com.squareup.okhttp3:okhttp:3.8.1")
+    implementation("org.jetbrains.kotlin:kotlin-script-util:$kotlinVersion")
+    implementation("org.jetbrains.kotlin:kotlin-compiler-embeddable:$kotlinVersion")
+    implementation(commonmark)
+    implementation(commonmarkExtGfmTables)
 
-    testCompile("junit:junit:4.12")
+    implementation(httpClient)
+
+    testImplementation(mockk)
+    testImplementation(junit)
 }

@@ -35,6 +35,20 @@ category("Projects") {
       tags = Tags["vertx.io", "async", "example"]
     }
     link {
+      name = "cbedoy/DYUM"
+      desc = "Basic Kotlin Implementation following MVP, and using Third Party library by Natural Analytics Language"
+      href = "https://github.com/cbedoy/DYUM"
+      type = github
+      tags = Tags["natural language", "third_party", "mvp", "demo", "basic kotlin", "retrofit"]
+    }
+    link {
+      name = "eddywm/KTFLITE"
+      desc = "Computer Vision on Android with Kotlin and Tensorflow Lite."
+      href = "https://github.com/eddywm/KTFLITE"
+      type = github
+      tags = Tags["tensorflow", "deep-learning", "computer-vision", "android", "machine-learning"]
+    }
+    link {
       name = "rocketraman/kotlin-web-hello-world"
       desc = "This project shows how to do a web-based \"Hello World!\" with Kotlin in combination with various JVM -" +
         " based web frameworks."
@@ -84,6 +98,21 @@ category("Projects") {
       type = github
       tags = Tags["spring", "reactive", "web"]
     }
+    link {
+      name = "yyunikov/spring-boot-2-kotlin-starter"
+      desc = "Spring Boot 2.0 Kotlin application starter with configurations for Gradle, Mongo, JUnit 5 tests, logging, CircleCI and Docker compose."
+      href = "https://github.com/yyunikov/spring-boot-2-kotlin-starter"
+      type = github
+      tags = Tags["spring", "gradle", "reactive", "web", "spring-boot", "docker", "junit-test"]
+    }
+    link{
+      name = "viniciusccarvalho/kodein-cloud-functions"
+      desc = "Provides adapters to different cloud functions providers (AWS, Azure) to run vanilla kotlin functions defined as kodein modules"
+      href = "https://github.com/viniciusccarvalho/kodein-cloud-functions"
+      type = github
+      tags = Tags["kodein", "cloud", "serverless"]
+
+    }
   }
   subcategory("Build tools") {
     link {
@@ -116,6 +145,13 @@ category("Projects") {
   }
   subcategory("Misc") {
     link {
+      name = "quicktype/quicktype"
+      desc = "Generate Kotlin types and converters from JSON, Schema, TypeScript, and GraphQL"
+      href = "https://github.com/quicktype/quicktype"
+      type = github
+      tags = Tags["json", "api", "web"]
+    }
+    link {
       name = "brikk/brikk"
       desc = "Brikk dependency manager (Kotlin, KotlinJS, Java, ...)."
       href = "https://github.com/brikk/brikk"
@@ -141,7 +177,7 @@ category("Projects") {
       desc = "Front-End developed with Kotlin Experimental for my GameBoy Emulator (coroutines)."
       href = "https://github.com/vicboma1/GameBoyEmulatorEnvironment"
       type = github
-      tags = Tags["GameBoy","Emulator", "frontend", "kotlin", "experimental"]
+      tags = Tags["GameBoy", "Emulator", "frontend", "kotlin", "experimental"]
     }
     link {
       name = "borisf/classyshark-bytecode-viewer"
@@ -164,6 +200,55 @@ category("Projects") {
       type = github
       tags = Tags["jenkins", "gradle"]
     }
+    link {
+      name = "kpspemu/kpspemu"
+      desc = "Multiplatform (JS and JVM) PSP Emulator written in Kotlin."
+      href = "https://github.com/kpspemu/kpspemu"
+      type = github
+      tags = Tags["Emulator", "Kotlin/JS", "Kotlin/JVM"]
+    }
+    link {
+      name = "sourcerer-io/sourcerer-app"
+      desc = "Visual profile for software engineers written in Kotlin."
+      href = "https://github.com/sourcerer-io/sourcerer-app"
+      type = github
+      tags = Tags["code analysis", "visualization", "resume", "profile"]
+    }
+    link {
+      name = "chrislo27/RhythmHeavenRemixEditor"
+      desc = "An audio custom remix editor designed for the Rhythm Heaven series, using libGDX and Kotlin."
+      href = "https://github.com/chrislo27/RhythmHeavenRemixEditor"
+      type = github
+      tags = Tags["libgdx", "Rhythm Heaven", "custom remix"]
+    }
+    link {
+      name = "Poweranimal/PowerCollections"
+      desc = "Powerfull Collections, Sets, Lists and Maps."
+      href = "https://github.com/Poweranimal/PowerCollections"
+      type = github
+      tags = Tags["collections", "maps", "lists", "sets", "weakreference", "observable", "bounded"]
+    }
+    link {
+      name = "neworld/gradle-jdeploy-plugin"
+      desc = "Gradle plugin to publish JVM applications via npmjs.com"
+      href = "https://github.com/neworld/gradle-jdeploy-plugin"
+      type = github
+      tags = Tags["gradle", "publish", "npm"]
+    }
+    link {
+      name = "ruslanys/telegraff"
+      desc = "Kotlin DSL for Telegram Bots creation."
+      href= "https://github.com/ruslanys/telegraff"
+      type = github
+      tags = Tags["telegram", "bot", "dsl", "telegraff"]
+    }
+    link {
+      name = "krzema12/fsynth"
+      desc = "Music synthesizer as a Kotlin multiplatform project"
+      href= "https://github.com/krzema12/fsynth"
+      type = github
+      tags = Tags["music", "functional-programming", "multiplatform"]
+    }
   }
   subcategory("Desktop") {
     link {
@@ -172,6 +257,13 @@ category("Projects") {
       href = "https://github.com/ice1000/Dekoder"
       type = github
       tags = Tags["JavaFX", "Desktop", "Player"]
+    }
+    link {
+      name = "ruslanys/vkmusic"
+      desc = "JavaFX and Spring-Boot based application for grabbing music from VK.com."
+      href = "https://github.com/ruslanys/vkmusic"
+      type = github
+      tags = Tags["javafx", "spring", "spring-boot"]
     }
 
   }
@@ -202,6 +294,13 @@ category("Projects") {
       href = "https://github.com/robfletcher/midcentury-ipsum"
       type = github
       tags = Tags["ratpack"]
+    }
+    link {
+      name = "som-one/zarif-kherkin"
+      desc = "Configurable BDD testing using a Kotlin DSL for Gherkin."
+      href = "https://github.com/som-one/zarif-kherkin"
+      type = github
+      tags = Tags["bdd", "gherkin", "dsl",  "test"]
     }
     link {
       name = "robfletcher/lazybones-kotlin"
@@ -278,7 +377,28 @@ category("Projects") {
       desc = "Kotlin TodoMVC – full-stack Kotlin application demo"
       href = "https://github.com/gyulavoros/kotlin-todomvc"
       type = github
-      tags = Tags["examples", "javascript", "web", "gradle"]
+      tags = Tags["examples", "javascript", "web", "gradle", "todomvc"]
+    }
+    link {
+      name = "mkraynov/todomvc-react-kotlin"
+      desc = "React Kotlin TodoMVC – example based on create-react-kotlin-app and todomvc-react"
+      href = "https://github.com/mkraynov/todomvc-react-kotlin"
+      type = github
+      tags = Tags["examples", "javascript", "web", "react", "todomvc"]
+    }
+    link {
+      name = "IvanMwiruki/30-seconds-of-kotlin"
+      desc = "Useful Kotlin snippets you can understand quickly, using only the stdlib."
+      href = "https://github.com/IvanMwiruki/30-seconds-of-kotlin"
+      type = github
+      tags = Tags["examples", "snippets", "sample", "study", "functional"]
+    }
+    link {
+      name = "xurxodev/integration-testing-kotlin-multiplatform-kata"
+      desc = "A full exercise to learn how to use stubbing HTTP in Kotlin multiplatform using Ktor and Ktor Client Mock."
+      href = "https://github.com/xurxodev/integration-testing-kotlin-multiplatform-kata"
+      type = github
+      tags = Tags["examples", "kotlin-multiplatform", "testing", "stubbing-http", "Ktor", "ktor-client-mock"]
     }
   }
   subcategory("Idea Plugins") {
@@ -302,6 +422,55 @@ category("Projects") {
       href = "https://github.com/dkandalov/activity-tracker"
       type = github
       tags = Tags["idea", "plugin"]
+    }
+    link {
+      name = "izhangzhihao/intellij-rainbow-brackets"
+      desc = "Rainbow Brackets / Rainbow Parentheses for IntelliJ IDEA based IDEs."
+      href = "https://github.com/izhangzhihao/intellij-rainbow-brackets"
+      type = github
+      tags = Tags["idea", "plugin"]
+    }
+    link {
+      name = "roger-yh99/Readhub"
+      desc = "[Readhub](http://plugins.jetbrains.com/plugin/10539-readhub) is a News Reader plugin for IntelliJ IDEs"
+      href = "https://github.com/roger-yh99/Readhub"
+      type = github
+      tags = Tags["idea", "plugin"]
+    }
+    link {
+      name = "roger-yh99/AwesomeKotlinPlugin"
+      desc = "[AwesomeKotlin](https://plugins.jetbrains.com/plugin/11357-awesome-kotlin) plugin for IntelliJ IDEs"
+      href = "https://github.com/roger-yh99/AwesomeKotlinPlugin"
+      type = github
+      tags = Tags["idea", "plugin"]
+    }
+    link {
+      name = "emedinaa/kotlin-mvvm"
+      desc = "MVVM(Model View ViewModel) sample in Kotlin using the components ViewModel, LiveData and Retrofit library"
+      href = "https://github.com/emedinaa/kotlin-mvvm"
+      type = github
+      tags = Tags["android", "examples", "mvvm", "kotlin"]
+    }
+    link {
+      name = "emedinaa/kotlin-mvp-volley"
+      desc = "Example of Android project in Kotlin using MVP(Model View Presenter) pattern and volley library"
+      href = "https://github.com/emedinaa/kotlin-mvp-volley"
+      type = github
+      tags = Tags["android", "examples", "mvp", "kotlin" , "volley"]
+    }
+    link {
+      name = "emedinaa/android-recyclerview"
+      desc = "Some samples about the RecyclerView and Adapters using kotlin"
+      href = "https://github.com/emedinaa/android-recyclerview-and-adapters"
+      type = github
+      tags = Tags["android", "examples", "recyclerview", "kotlin" , "adapter"]
+    }
+    link {
+      name = "emedinaa/kotlin-viewmodel"
+      desc = "Basic samples about ViewModel component"
+      href = "https://github.com/emedinaa/kotlin-viewmodel"
+      type = github
+      tags = Tags["android", "examples", "viewmodel", "kotlin" , "livedata"]
     }
   }
 }

@@ -21,6 +21,13 @@ category("Android") {
       tags = Tags["android"]
     }
     link {
+      name = "0xe1f/KotX"
+      desc = "Kotlin extension and tool library for Android"
+      href = "https://github.com/0xe1f/KotX"
+      type = github
+      tags = Tags["android"]
+    }
+    link {
       name = "MarcinMoskala/ActivityStarter"
       desc = "Activity starter generator and arguments injection library for Android."
       href = "https://github.com/MarcinMoskala/ActivityStarter"
@@ -80,6 +87,13 @@ category("Android") {
       name = "mcxiaoke/kotlin-koi"
       desc = "Koi, a lightweight kotlin library for Android Development."
       href = "https://github.com/mcxiaoke/kotlin-koi"
+      type = github
+      tags = Tags["android"]
+    }
+    link {
+      name = "Stateful"
+      desc = "Stateful helps you delete all the boilerplate code for saving instance state and lets you forget about saving and restoring your fragment's/activity's state."
+      href = "https://github.com/PicsArt/stateful"
       type = github
       tags = Tags["android"]
     }
@@ -154,11 +168,18 @@ category("Android") {
       tags = Tags["android", "layout"]
     }
     link {
-      name =  "DanielMartinus/Stepper-Touch"
-      desc =  "Fun playful Android stepper widget for counting, written in Kotlin."
-      href =  "https://github.com/DanielMartinus/Stepper-Touch"
-      type =  github
-      tags =  Tags["widget", "android", "counter", "ui"]
+      name = "robinchew/mvil"
+      desc = "'Virtual DOM' for Android inspired by Anvil."
+      href = "https://github.com/robinchew/mvil"
+      type = github
+      tags = Tags["android", "layout"]
+    }
+    link {
+      name = "DanielMartinus/Stepper-Touch"
+      desc = "Fun playful Android stepper widget for counting, written in Kotlin."
+      href = "https://github.com/DanielMartinus/Stepper-Touch"
+      type = github
+      tags = Tags["widget", "android", "counter", "ui"]
     }
     link {
       name = "GlimpseFramework/glimpse-framework-android"
@@ -189,11 +210,11 @@ category("Android") {
       tags = Tags["android", "apt"]
     }
     link {
-      name =  "DanielMartinus/Konfetti"
-      desc =  "Lightweight particle system to create realistic confetti"
-      href =  "https://github.com/DanielMartinus/Konfetti"
-      type =  github
-      tags =  Tags["library", "particle", "confetti", "ui", "konfetti", "confetti"]
+      name = "DanielMartinus/Konfetti"
+      desc = "Lightweight particle system to create realistic confetti"
+      href = "https://github.com/DanielMartinus/Konfetti"
+      type = github
+      tags = Tags["library", "particle", "confetti", "ui", "konfetti", "confetti"]
     }
     link {
       name = "rahulchowdhury/Mystique"
@@ -215,7 +236,7 @@ category("Android") {
       href = "https://github.com/costular/kotlin-android-utils"
       type = github
       tags = Tags["kotlin", "android", "kotlin-android", "android-utils",
-      "fragments", "activity", "permissions", "utils", "notifications", "android-kotlin", "library"]
+        "fragments", "activity", "permissions", "utils", "notifications", "android-kotlin", "library"]
     }
     link {
       name = "rakshakhegde/ObservableFlow"
@@ -240,10 +261,143 @@ category("Android") {
     }
     link {
       name = "WindSekirun/RichUtilsKt"
-      desc = "Advancement Utils for Android Developer written in Kotlin"
+      desc = "Advancement Utils for Android Developer written in Kotlin."
       href = "https://github.com/WindSekirun/RichUtilsKt"
       type = github
       tags = Tags["android"]
+    }
+    link {
+      name = "TradeMe/MapMe"
+      desc = "A library that brings the adapter pattern and DiffUtil to Google Maps and MapBox."
+      href = "https://github.com/TradeMe/MapMe"
+      type = github
+      tags = Tags["diffutil", "googlemaps", "mapbox", "maps", "kotlin", "kotlin-android", "recyclerview", "markers"]
+    }
+    link {
+      name = "iglaweb/Ferris-Wheel"
+      desc = "Simple android library to present an animated ferris wheel"
+      href = "https://github.com/iglaweb/Ferris-Wheel"
+      type = github
+      tags = Tags["kotlin", "android", "android-library", "animation", "ferris-wheel", "kotlin-android", "customview"]
+    }
+    link {
+      name = "ehsunshine/colored-time-selector"
+      desc = "A smart colored time selector. Users can select just free time with a handy colorful range selector."
+      href = "https://github.com/ehsunshine/colored-time-selector"
+      type = github
+      tags = Tags["selector", "range", "time", "timebar", "kotlin", "kotlin-android", "rangebar", "market"]
+    }
+    link {
+      name = "yundom/kache"
+      desc = "A lightweight cache library written in Kotlin."
+      href = "https://github.com/yundom/kache"
+      type = github
+      tags = Tags["cache", "kotlin"]
+    }
+    link {
+      name = "adrielcafe/KBus"
+      desc = "Dead simple EventBus for Android made with Kotlin and RxJava 2"
+      href = "https://github.com/adrielcafe/KBus"
+      type = github
+      tags = Tags["android", "eventbus", "rxjava"]
+    }
+    link {
+      name = "Jintin/MixAdapter"
+      desc = "Compose multiple Adapter for RecyclerView in Android."
+      href = "https://github.com/Jintin/MixAdapter"
+      type = github
+      tags = Tags["RecyclerView", "Adapter", "kotlin", "kotlin-android"]
+    }
+    link {
+      name = "yundom/RxVan"
+      desc = "A lightweight event bus written in Kotlin and RxJava."
+      href = "https://github.com/yundom/RxVan"
+      type = github
+      tags = Tags["android", "eventbus", "rxjava", "kotlin"]
+    }
+    link {
+      name = "duanhong169/DrawableToolbox"
+      desc = "The missing drawable toolbox for Android."
+      href = "https://github.com/duanhong169/DrawableToolbox"
+      type = github
+      tags = Tags["android", "android-drawables", "kotlin", "kotlin-android"]
+    }
+    link {
+      name = "adrielcafe/AndroidCoroutineScopes"
+      desc = "This lib implements the most common CoroutineScopes used in Android apps."
+      href = "https://github.com/adrielcafe/AndroidCoroutineScopes"
+      type = github
+      tags = Tags["android", "kotlin",  "coroutines", "coroutinescopes"]
+    }
+    link {
+      name = "WindSekirun/RxSocialLogin"
+      desc = "This Android library is a library that provides social login for 15 platforms powered by RxJava2, Kotlin and Firebase Authentication. "
+      href = "https://github.com/WindSekirun/RxSocialLogin"
+      type = github
+      tags = Tags["android", "sociallogin", "rxjava", "kotlin"]
+    }
+    link {
+      name = "bakhtiyork/gradients"
+      desc = "A curated collection of splendid gradients"
+      href = "https://github.com/bakhtiyork/gradients"
+      type = github
+      tags = Tags["android", "gradient", "drawable"]
+    }
+    link {
+      name = "hpost/RxBrainwaves"
+      desc = "RxJava wrapper for NeuroSky MindWave headsets"
+      href = "https://github.com/hpost/rx-brainwaves"
+      type = github
+      tags = Tags["rxjava2", "rxjava-wrapper", "neurosky-mindwave", "android"]
+    }
+    link {
+      name = "adrielcafe/KrumbsView"
+      desc = "The ultimate breadcrumbs view for Android!"
+      href = "https://github.com/adrielcafe/KrumbsView"
+      type = github
+      tags = Tags["android", "breadcrumbs", "breadcrumb-navigation"]
+    }
+    link {
+      name = "inshiro/Skate"
+      desc = "A simple and easy to use Android fragment stack controller"
+      href = "https://github.com/inshiro/skate"
+      type = github
+      tags = Tags["android", "fragment", "controller", "navigation"]
+    }
+    link {
+      name = "cortinico/slidetoact"
+      desc = "A simple 'Slide to Unlock' Material widget for Android, written in Kotlin"
+      href = "https://github.com/cortinico/slidetoact"
+      type = github
+      tags = Tags["android", "ui", "widget", "material", "kotlin", "kotlin-android", "slider"]
+    }
+    link {
+      name = "AppIntro/AppIntro"
+      desc = "Make a cool/material intro for you Android App - Now all in Kotlin!"
+      href = "https://github.com/AppIntro/AppIntro"
+      type = github
+      tags = Tags["android", "fragment", "intro", "material", "kotlin", "kotlin-android", "viewpager"]
+    }
+    link {
+      name = "CuriousNikhil/gossip"
+      desc = "Android TextToSpeech Helper to speak any text you want and handle events."
+      href = "https://github.com/CuriousNikhil/gossip"
+      type = github
+      tags = Tags["android", "kotlin", "coroutines", "TextToSpeech"]
+    }
+    link {
+      name = "adrielcafe/PufferDB"
+      desc = "An Android & JVM key-value storage powered by Protobuf and Coroutines."
+      href = "https://github.com/adrielcafe/pufferdb"
+      type = github
+      tags = Tags["android", "kotlin", "coroutines", "rxjava", "protobuf", "storage", "database", "key-value"]
+    }
+    link {
+      name = "adrielcafe/HAL"
+      desc = "A non-deterministic finite-state machine for Android & JVM that won't let you down."
+      href = "https://github.com/adrielcafe/hal"
+      type = github
+      tags = Tags["android", "kotlin", "coroutines", "livedata", "fsm", "state-machine", "finite-state-machine"]
     }
   }
   subcategory("Frameworks") {
@@ -267,6 +421,13 @@ category("Android") {
       href = "https://github.com/codenameone/CodenameOne"
       type = github
       tags = Tags["cross-platform", "ikvm", "codenameone", "java", "iphone", "mobile"]
+    }
+    link {
+      name = "hpost/kommon-mvi"
+      desc = "Minimal framework for Model View Intent inspired Android applications written in Kotlin."
+      href = "https://github.com/hpost/kommon-mvi"
+      type = github
+      tags = Tags["rxjava2", "rxjava", "android", "mvi", "mvi-architecture", "android-architecture"]
     }
   }
   subcategory("Projects") {
@@ -409,6 +570,13 @@ category("Android") {
       tags = Tags["android", "extensions", "utils", "library", "material", "ui", "sharedpreferences", "media-picker", "searchview", "color-picker", "permission-manager"]
     }
     link {
+      name = "inshiro/Kodesh"
+      desc = "Free and open source Bible for Android"
+      href = "https://github.com/inshiro/Kodesh"
+      type = github
+      tags = Tags["android", "application", "read", "book", "bible"]
+    }
+    link {
       name = "hanjoongcho/aaf-easyphotomap"
       desc = "This is a photomap app that shows photos taken on a map."
       href = "https://github.com/hanjoongcho/aaf-easyphotomap"
@@ -464,6 +632,62 @@ category("Android") {
       type = github
       tags = Tags["testing", "functional-programming", "property-based"]
     }
+    link {
+      name = "hanjoongcho/aaf-easypassword"
+      desc = "A password manager using a single lock pattern for various type passwords management."
+      href = "https://github.com/hanjoongcho/aaf-easypassword"
+      type = github
+      tags = Tags["android", "application", "password-manager", "password-strength"]
+    }
+    link {
+      name = "WilderPereira/lmgtfyGen"
+      desc = "Simple Android App to generate Let Me Google That For You urls."
+      href = "https://github.com/WilderPereira/lmgtfyGen"
+      type = github
+      tags = Tags["android", "application", "rx", "MVP"]
+    }
+    link {
+      name = "WilderPereira/ftwfy"
+      desc = "The real life Command/Ctrl + F - Android App that uses the Mobile Vision API to allow you to search for any occurrence of a text in a digital document."
+      href = "https://github.com/WilderPereira/ftwfy"
+      type = github
+      tags = Tags["android", "application", "ocr", "android-vision", "computer-vision"]
+    }
+    link {
+      name = "hanjoongcho/aaf-easydiary"
+      desc = "This is a diary application optimized to user experience."
+      href = "https://github.com/hanjoongcho/aaf-easydiary"
+      type = github
+      tags = Tags["diary-application", "diary", "realm", "android-diary", "calendar", "material", "android"]
+    }
+    link {
+      name = "adrielcafe/GreenHellCompanionApp"
+      desc = "Unofficial companion app for the game Green Hell."
+      href = "https://github.com/adrielcafe/GreenHellCompanionApp"
+      type = github
+      tags = Tags["android", "app", "companion-app", "kotlin", "mvvm", "android-architecture-components", "kotlin-coroutines", "dependency-injection", "fastadapter"]
+    }
+    link {
+      name = "adrielcafe/ChromaAndroidApp"
+      desc = "Chromatic tuner app."
+      href = "https://github.com/adrielcafe/ChromaAndroidApp"
+      type = github
+      tags = Tags["android", "app", "mvvm", "android-architecture-components", "kotlin-coroutines", "music", "tuner", "chromatic-tuner"]
+    }
+    link {
+      name = "cuongpm/youtube-dl-android"
+      desc = "Video downloader for Android - Download videos from Youtube, Facebook, Twitter, Instagram, Dailymotion, Vimeo and more than 1000 other sites."
+      href = "https://github.com/cuongpm/youtube-dl-android"
+      type = github
+      tags = Tags["android", "kotlin", "mvvm", "youtube-dl", "youtube-downloader", "video-downloader", "android-video-downloader"]
+    }
+    link {
+      name = "dgngulcan/droid-feed"
+      desc = "News feed aggregated exclusively for Android Developers."
+      href = "https://github.com/dgngulcan/droid-feed"
+      type = github
+      tags = Tags["android", "kotlin", "mvvm", "kotlin-coroutines", "news", "app"]
+    }
   }
   subcategory("Extensions") {
     link {
@@ -473,6 +697,13 @@ category("Android") {
       type = github
       tags = Tags["android", "logging"]
     }
+    link {
+      name = "rosariopfernandes/fireXtensions"
+      desc = "Unofficial Kotlin Extensions for the Firebase Android SDK."
+      href = "https://github.com/rosariopfernandes/fireXtensions"
+      type = github
+      tags = Tags["android", "firebase", "kotlin", "firebase-database", "firestore"]
+    }
   }
   subcategory("Tools") {
     link {
@@ -481,6 +712,13 @@ category("Android") {
       href = "https://github.com/kiruto/debug-bottle"
       type = github
       tags = Tags["android", "debug"]
+    }
+    link {
+      name = "didi/booster"
+      desc = "Booster is an optimization toolkit for Android applications"
+      href = "https://github.com/didi/booster"
+      type = github
+      tags = Tags["optimizer", "android", "gradle-plugin", "bytecode-manipulation", "static-analysis"]
     }
   }
   subcategory("Tests") {
